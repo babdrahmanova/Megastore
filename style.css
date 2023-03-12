@@ -1,0 +1,63 @@
+body{
+    /* width: 100%;
+    height: 100vh; */
+    background-color: #000000;
+}
+
+.form_authorization{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.form_authorization div{
+    text-align: center;
+    width: 640px;
+    background: #FFFFFF;
+    border-radius: 4px;
+}
+
+
+h4{
+    font-family: 'Sora', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    padding-top: 40px;
+    
+}
+
+p{
+    font-family: 'Sora', sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+    text-align: left;
+    padding-left: 16px;
+}
+
+.form_enter_number{
+    width: 608px;
+    height: 48px;
+    border: 0.5px solid #DADADA;
+    border-radius: 4px;
+}
+
+button{
+    width: 384px;
+    background: #232529;
+    border-radius: 4px;
+    font-family: 'Sora', sans-serif;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    margin: 15px 0 48px;
+    padding: 5px 0;
+}
+
+.form_authorization h4, .form_enter_number, button{
+    
+} 
