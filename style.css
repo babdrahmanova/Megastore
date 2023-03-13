@@ -6,7 +6,11 @@ body {
 }
 
 .mt16{
-    mt16
+    margin-top: 16px;
+}
+
+.mt100{
+    margin-top: 100px;
 }
 
 .form_authorization {
@@ -132,37 +136,22 @@ button:hover {
 
 .width_200 {
     width: 200px;
-    box-sizing: border-box;
-    opacity: 0.5;
-    border: 0.5px solid #AEAEAE;
-    border-radius: 8px;
-    padding: 10px;
-    margin: 8px 4px;
 
 }
 
 .width_408 {
     width: 408px;
-    box-sizing: border-box;
-    opacity: 0.5;
-    border: 0.5px solid #AEAEAE;
-    border-radius: 8px;
-    padding: 10px;
-    margin: 8px 4px;
 }
 
 .width_304 {
     width: 304px;
-    box-sizing: border-box;
-    opacity: 0.5;
-    border: 0.5px solid #AEAEAE;
-    border-radius: 8px;
-    padding: 10px;
-    margin: 8px 4px;
 }
 
 .width_625 {
     width: 625px;
+}
+
+.form_cell{
     box-sizing: border-box;
     opacity: 0.5;
     border: 0.5px solid #AEAEAE;
