@@ -13,6 +13,23 @@ body {
     margin-top: 100px;
 }
 
+.width_200 {
+    width: 200px;
+
+}
+
+.width_408 {
+    width: 408px;
+}
+
+.width_304 {
+    width: 304px;
+}
+
+.width_625 {
+    width: 625px;
+}
+
 .form_authorization {
     margin-top: 200px;
 }
@@ -132,23 +149,6 @@ button:hover {
     padding: 0 24px 40px;
     display: flex;
     flex-direction: column;
-}
-
-.width_200 {
-    width: 200px;
-
-}
-
-.width_408 {
-    width: 408px;
-}
-
-.width_304 {
-    width: 304px;
-}
-
-.width_625 {
-    width: 625px;
 }
 
 .form_cell{

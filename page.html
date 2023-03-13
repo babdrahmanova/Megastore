@@ -30,7 +30,7 @@
                 <input class="form_cell width_200" type="text" placeholder="Стоимость товара">
                 <input class="form_cell width_200" type="text" placeholder="Количество товара">
                 <input class="form_cell width_200" type="text" placeholder="Итого сумма кредита">
-                <input class="form_cell width_200" list="credit_types" class="credit_type_choice" name="credit_type_choice"
+                <input class="form_cell width_200" list="credit_types" name="credit_type_choice"
                     placeholder="Вид кредита" />
                 <datalist id="credit_types">
                     <option value="1"></option>
@@ -39,23 +39,24 @@
                     <option value="4"></option>
                     <option value="5"></option>
                 </datalist>
-
-                <input list="form_cell credit_terms" class="form_cell width_200" placeholder="Срок кредита ( мес)">
+                <input class="form_cell width_200" list="credit_terms" name="credit_terms"
+                    placeholder="Срок кредита ( мес)" />
                 <datalist id="credit_terms">
-                    <option value="1">
-                    <option value="1">
-                    <option value="1">
-                    <option value="1">
+                    <option value="1"></option>
+                    <option value="2"></option>
+                    <option value="3"></option>
+                    <option value="4"></option>
+                    <option value="5"></option>
                 </datalist>
-                </form>
-                <input list="form_cell pick-up_point" class="form_cell width_625" placeholder="Точка получения товара">
+                <input class="form_cell width_625" list="pick-up_point" name="pick-up_point"
+                    placeholder="Точка получения товара" />
                 <datalist id="pick-up_point">
-                    <option value="1">
-                    <option value="1">
-                    <option value="1">
-                    <option value="1">
+                    <option value="1"></option>
+                    <option value="2"></option>
+                    <option value="3"></option>
+                    <option value="4"></option>
+                    <option value="5"></option>
                 </datalist>
-                </form>
                 <div class="align_center">
                     <a href="#"><button>Далее</button></a>
                 </div>
