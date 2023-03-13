@@ -50,7 +50,6 @@ button{
     width: 384px;
     background: #232529;
     border-radius: 4px;
-    font-family: 'Sora', sans-serif;
     font-size: 20px;
     line-height: 25px;
     letter-spacing: 1px;
@@ -58,7 +57,11 @@ button{
     margin: 15px 0 48px;
     padding: 10px 0;
     border: none;
+}
 
+button:hover{
+    background-color: #545556;
+    transition: background-color 0.3s;
 }
 
 /* *************************************** */
@@ -110,9 +113,9 @@ button{
     align-items: center;
 }
 
-.form_application div{
+/* .form_application div{
     padding-top: 16px;
-}
+} */
 
 .container{
     width: 680px;
