@@ -98,3 +98,61 @@ button{
     border-radius: 12px;
     margin: 40px 0;
 }
+
+/* ***************************** */
+
+.form_application{
+   margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form_application div{
+    padding-top: 16px;
+}
+
+.container{
+    width: 680px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 24px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 0 24px 40px ;
+    display: flex;
+    flex-direction: column;
+}
+
+.width_200{
+    width: 200px;
+    box-sizing: border-box;
+    opacity: 0.5;
+    border: 0.5px solid #AEAEAE;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 8px 4px;
+   
+}
+
+.width_408{
+    width: 408px;
+    box-sizing: border-box;
+    opacity: 0.5;
+    border: 0.5px solid #AEAEAE;
+    border-radius: 8px;  
+    padding: 10px;
+    margin: 8px 4px;
+}
+
+.nowrap{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.container button{
+   text-align: center;
+}
+
+.container p{
+    padding: 0;
+    margin: 0;
+}

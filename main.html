@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Анкета  для корпоративных клиентов</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="form_application">
+       <div class="container">
+            <h4>Анкета  для корпоративных клиентов</h4>
+            <div>
+            <label for="label"><p>Личные данные</p></label>
+               <span class="nowrap">
+                <input class="width_200" class="label" type="text" placeholder="Фамилия">
+                <input class="width_200" type="text" placeholder="Имя">
+                <input class="width_200" type="text" placeholder="Отчество">
+               </span>
+            </div>
+            <div >
+            <label for="label"><p>Паспортные данные</p></label>
+           <span class="nowrap">
+             <input class="width_200" class="label" type="date" placeholder="Дата рождения">
+            <input class="width_408" type="text" placeholder="Место проживания по прописке">
+           </span>
+           <input class="width_200" type="text" placeholder="Серийный номер AN/ID">
+            <input class="width_200" type="text" placeholder="ИНН">
+            <input class="width_200" type="date" placeholder="Дата получения">
+            <input class="width_200" type="tel" placeholder="Контактный номер">
+            <input class="width_200" type="email" placeholder="Электронный адрес">
+                <input  class="width_200" list="banks" id="bank_choice" name="bank_choice" placeholder="Наименование банка" />
+                <datalist id="banks">
+                <option value="1"></option>
+                <option value="2"></option>
+                <option value="3"></option>
+                <option value="4"></option>
+                <option value="5"></option>
+                </datalist>
+             <input class="width_408" type="text" placeholder="Фактическое место проживания"> 
+            <button> Далее </button>
+            </div>
+       </div>
+    </section>
+
+</body>
+</html>
