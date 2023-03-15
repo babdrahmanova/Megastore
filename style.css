@@ -13,6 +13,10 @@ body {
     margin-top: 100px;
 }
 
+.pl30{
+    padding-left: 30px;
+}    
+
 .width_200 {
     width: 200px;
 
@@ -55,6 +59,14 @@ h4 {
     color: #000000;
     padding-top: 40px;
 
+}
+
+h3{
+    font-family: 'Sora';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
 }
 
 p {
@@ -174,4 +186,39 @@ button:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* ************************* */
+
+.body_6_page{
+    background-color: white;
+}
+
+.form_container button{
+    margin-left: 114px;
+}
+
+.wrapper_cell{
+    
+    display: block;
+    margin-bottom: 16px;
+}
+
+label{
+    display: block;
+    font-family: 'Sora';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+
+}
+
+.wrapper_cell_flex{
+    display: flex;
+}
+
+.wrapper_nowrap{
+    display: flex;
+
 }

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MegaStore</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="body_6_page">
+    <section>
+        <div class="form_container pl30">
+
+            <form action="">
+                <h4>Анкета для корпоративных клиентов</h4>
+                <h3>Личные данные</h3>
+                <div class="wrapper_nowrap">
+                    <div class="wrapper_cell_flex">
+                        <div class="wrapper_cell">
+                            <label for="last_name">Фамилия </label>
+                            <input class="width_200 form_cell" type="text" id="surname" placeholder="Иванов ">
+                        </div>
+                    </div>
+                    <div class="wrapper_cell_flex">
+                        <div class="wrapper_cell">
+                            <label for="name">Имя </label>
+                            <input class="width_200 form_cell" type="text" id="name" placeholder="Иван">
+                        </div>
+                    </div>
+                    <div class="wrapper_cell_flex">
+                        <div class="wrapper_cell">
+                            <label for="surname ">Отчество </label>
+                            <input class="width_200 form_cell" type="text" id="surname" placeholder="Иванович ">
+                        </div>
+                    </div>
+                </div>
+                <div class="wrapper_nowrap">
+                    <div class="wrapper_cell">
+                        <label for="date_of_birth ">Дата рождения</label>
+                        <input class="width_200 form_cell" type="date" id="date_of_birth " placeholder="12.12.2021 ">
+                    </div>
+                    <div class="wrapper_cell">
+                        <label for=" address">Фактическое место проживания</label>
+                        <input class="width_408 form_cell" type="text" id="address "
+                            placeholder=" Бишкек. Чорморова 23/3 кв.43">
+                    </div>
+                </div>
+                <div class="wrapper_nowrap">
+                    <div class="wrapper_cell">
+                        <label for="contact_tel">Контактный номер</label>
+                        <input class="width_200 form_cell" type="tel" id=" contact_tel" placeholder=" +996 555 000 000">
+                    </div>
+                    <div class="wrapper_cell">
+                        <label for=" email">Электронный адрес</label>
+                        <input class="width_200 form_cell" type="email" id=" email" placeholder="ivanov@mail.ru ">
+                    </div>
+                </div>
+
+                <div class="wrapper_cell">
+
+                </div>
+
+                <div>
+                    <h3>Паспортные данные</h3>
+                    <div class="wrapper_nowrap">
+                        <div class="wrapper_cell">
+                            <label for="AN_ID">Серийный номер AN/ID</label>
+                            <input class="width_200 form_cell" type="text" id="AN_ID" placeholder="AN1234567">
+                        </div>
+                        <div class="wrapper_cell">
+                            <label for="inn">ИНН</label>
+                            <input class="width_200 form_cell" type="text" id="inn" placeholder="12345678987654">
+                        </div>
+                        <div class="wrapper_cell">
+                            <label for="date_of_receipt">Дата получения</label>
+                            <input class="width_200 form_cell" type="date" id="date_of_receipt"
+                                placeholder="12.12.2021">
+                        </div>
+                    </div>
+                    <div class="wrapper_nowrap">
+                        <div class="wrapper_cell">
+                            <label for="bank_name">Наименование банка</label>
+                            <input class="form_cell width_200" list="bank_name" name="bank_name_choice"
+                                placeholder="Выберите банка" />
+                            <datalist id="bank_name">
+                                <option value="1"></option>
+                                <option value="2"></option>
+                                <option value="3"></option>
+                                <option value="4"></option>
+                                <option value="5"></option>
+                            </datalist>
+                        </div>
+                        <div class="wrapper_cell">
+                            <label for="registred_address">Место проживания по прописке</label>
+                            <input class="width_408 form_cell" type="tel" id="registred_address"
+                                placeholder="Бишкек. Чорморова 23/3 кв.43">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h3>Данные о ваших доходах</h3>
+                    <div class="wrapper_nowrap">
+                        <div class="wrapper_cell">
+                            <label for="org">Организация</label>
+                            <input class="width_200 form_cell" type="text" id="org" placeholder="Megacom">
+                        </div>
+                        <div class="wrapper_cell">
+                            <label for="post">Должность</label>
+                            <input class="width_408 form_cell" type="text" id="post" placeholder="Ведущий бухгалтер">
+                        </div>
+                    </div>
+                    <div class="wrapper_nowrap">
+                        <div class="wrapper_cell">
+                            <label for="wage_per_month">Заработная плата в месяц</label>
+                            <input class="width_304 form_cell" type="text" id="wage_per_month" placeholder=" ">
+                        </div>
+                        <div class="wrapper_cell">
+                            <label for="wage_per_3month">Заработная Плата за посл. 3 месяца</label>
+                            <input class="width_304 form_cell" type="text" id="wage_per_3month" placeholder=" ">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h3>Сведения о кредите</h3>
+                    <div class="wrapper_cell">
+                        <label for="product_name">Покупка телефона ( наименование товара)</label>
+                        <input class="width_625 form_cell" type="text" id="product_name" placeholder="iPhone XS 256Gb">
+                    </div>
+
+                    <div class="wrapper_nowrap">
+                        <div class="wrapper_cell">
+                            <label for="product_price">Стоимость товара</label>
+                            <input class="width_200 form_cell" type="text" id="product_price" placeholder="65 000 сом">
+                        </div>
+                        <div class="wrapper_cell">
+                            <label for="product_quantity">Количество товара</label>
+                            <input class="width_200 form_cell" type="number" id="product_quantity" placeholder="1 шт">
+                        </div>
+                        <div class="wrapper_cell">
+                            <label for="credit_sum">Итого сумма кредита</label>
+                            <input class="width_200 form_cell" type="text" id="credit_sum" placeholder="65 000 сом">
+                        </div>
+                    </div>
+                    <div class="wrapper_nowrap">
+                        <div class="wrapper_cell">
+                            <label for="type_credit">Вид кредита </label>
+                            <input class="form_cell width_200" list="type_credit" name="type_credit_choice"
+                                placeholder="кредит/ рассрочка" />
+                            <datalist id="type_credit">
+                                <option value="1"></option>
+                                <option value="2"></option>
+                                <option value="3"></option>
+                                <option value="4"></option>
+                                <option value="5"></option>
+                            </datalist>
+                        </div>
+                        <div class="wrapper_cell">
+                            <label for="type_credit">Срок кредита ( мес)</label>
+                            <input class="form_cell width_200" list="type_credit" name="type_credit_choice"
+                                placeholder="мин 3 месяца" />
+                            <datalist id="type_credit">
+                                <option value="1"></option>
+                                <option value="2"></option>
+                                <option value="3"></option>
+                                <option value="4"></option>
+                                <option value="5"></option>
+                            </datalist>
+                        </div>
+                        <div class="wrapper_cell">
+                            <label for="type_credit">Точка получения товара</label>
+                            <input class="form_cell width_200" list="type_credit" name="type_credit_choice"
+                                placeholder="Выберите адрес" />
+                            <datalist id="type_credit">
+                                <option value="1"></option>
+                                <option value="2"></option>
+                                <option value="3"></option>
+                                <option value="4"></option>
+                                <option value="5"></option>
+                            </datalist>
+                        </div>
+                    </div>
+                    <button><a href="#"></a> Оформить заявку</button>
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>
